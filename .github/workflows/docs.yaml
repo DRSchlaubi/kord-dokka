@@ -1,0 +1,30 @@
+on:
+  schedule:
+    - cron: "0 * * * *"
+  push:
+
+jobs:
+  update_docs:
+    name: "Update dokka.kord.dev"
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: kordlib/kord
+          ref: 0.8.x
+      - name: Setup Java JDK 8
+        uses: actions/setup-java@v2.1.0
+        with:
+          distribution: 'temurin'
+          java-version: 8
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2    
+        with:
+          arguments: dokkaHtmlMultiModule
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.2.1
+        with:
+          branch: gh-pages
+          folder: dokka
+          git-config-name: GitHub Actions
+          git-config-email: actions@github.com
