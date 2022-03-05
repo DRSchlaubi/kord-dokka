@@ -29,6 +29,7 @@ dev.kord.core.entity.channel.thread
 dev.kord.core.entity.component
 dev.kord.core.entity.interaction
 dev.kord.core.entity.interaction.followup
+dev.kord.core.entity.interaction.response
 dev.kord.core.event
 dev.kord.core.event.channel
 dev.kord.core.event.channel.data
