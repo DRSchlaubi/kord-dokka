@@ -68,6 +68,7 @@ dev.kord.rest.builder.message.create
 dev.kord.rest.builder.message.modify
 dev.kord.rest.builder.role
 dev.kord.rest.builder.scheduled_events
+dev.kord.rest.builder.stage
 dev.kord.rest.builder.template
 dev.kord.rest.builder.user
 dev.kord.rest.builder.webhook
