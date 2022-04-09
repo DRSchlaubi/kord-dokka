@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>DiscordMessageSticker</title>
 </head><body><link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>
-    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script><script type="text/javascript" src="../../../scripts/main.js" async></script><script type="text/javascript" src="../../../scripts/prism.js" async></script><script>const storage = localStorage.getItem("dokka-dark-mode")
+    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script><script type="text/javascript" src="../../../scripts/main.js" defer></script><script type="text/javascript" src="../../../scripts/prism.js" async></script><script>const storage = localStorage.getItem("dokka-dark-mode")
 const savedDarkMode = storage ? JSON.parse(storage) : false
 if(savedDarkMode === true){
     document.getElementsByTagName("html")[0].classList.add("theme-dark")
@@ -22,7 +22,7 @@ if(savedDarkMode === true){
       <div id="leftColumn">
         <div id="sideMenu"></div>
       </div>
-      <div id="main"><script type="text/javascript" src="../../../scripts/main.js"></script>
+      <div id="main">
         <div class="main-content" id="content" pageids="common::dev.kord.common.entity/DiscordMessageSticker///PointingToDeclaration//486241981">
           <div class="breadcrumbs"><a href="../../index.html">common</a>/<a href="../index.html">dev.kord.common.entity</a>/<a href="index.html">DiscordMessageSticker</a></div>
           <div class="cover ">
@@ -34,13 +34,15 @@ if(savedDarkMode === true){
             <div class="tabs-section-body">
               <h2 class="">Parameters</h2>
               <div data-togglable="Parameters">
-                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":common:dokkaHtmlPartial/main"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>id</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">id of the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>pack</span><wbr><span><span>Id</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">id of the pack the sticker is from</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>name</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">name of the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>description</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">description of the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>tags</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">a comma-separated list of tags for the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>asset</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">sticker asset hash</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>preview</span><wbr><span><span>Asset</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">sticker preview asset hash</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>format</span><wbr><span><span>Type</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">type of sticker format</p></div></div></div></div></div></div></div></div></div>
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":common:dokkaHtmlPartial/main"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>id</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">id of the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span>pack</span><wbr><span><span>Id</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">id of the pack the sticker is from</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>name</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">name of the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>description</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">description of the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>tags</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">a comma-separated list of tags for the sticker</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>asset</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">sticker asset hash</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span>preview</span><wbr><span><span>Asset</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">sticker preview asset hash</p></div></div></div></div></div><div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span>format</span><wbr><span><span>Type</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">type of sticker format</p></div></div></div></div></div></div></div></div></div>
               </div>
               <h2 class="tabbedcontent">Constructors</h2>
               <div class="table" data-togglable="Constructors"><a data-name="-241333841%2FConstructors%2F486241981" anchor-label="DiscordMessageSticker" id="-241333841%2FConstructors%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue TabbedContent">
-                    <div class=""><span class="inline-flex"><a href="-discord-message-sticker.html">DiscordMessageSticker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-241333841%2FConstructors%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="-discord-message-sticker.html"><span>Discord</span><wbr><span>Message</span><wbr><span><span>Sticker</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-241333841%2FConstructors%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -55,7 +57,9 @@ if(savedDarkMode === true){
               <div class="table" data-togglable="Properties"><a data-name="-1167941239%2FProperties%2F486241981" anchor-label="available" id="-1167941239%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="available.html">available</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1167941239%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="available.html">available</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1167941239%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -68,7 +72,9 @@ if(savedDarkMode === true){
 <a data-name="977604214%2FProperties%2F486241981" anchor-label="description" id="977604214%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="description.html">description</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="977604214%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="description.html">description</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="977604214%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -81,7 +87,9 @@ if(savedDarkMode === true){
 <a data-name="1030144823%2FProperties%2F486241981" anchor-label="formatType" id="1030144823%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="format-type.html">formatType</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1030144823%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="format-type.html">formatType</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1030144823%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -94,7 +102,9 @@ if(savedDarkMode === true){
 <a data-name="-964664124%2FProperties%2F486241981" anchor-label="guildId" id="-964664124%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="guild-id.html">guildId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-964664124%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="guild-id.html">guildId</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-964664124%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -107,7 +117,9 @@ if(savedDarkMode === true){
 <a data-name="-111681491%2FProperties%2F486241981" anchor-label="id" id="-111681491%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="id.html">id</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-111681491%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="id.html">id</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-111681491%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -120,7 +132,9 @@ if(savedDarkMode === true){
 <a data-name="949539325%2FProperties%2F486241981" anchor-label="name" id="949539325%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="name.html">name</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="949539325%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="name.html">name</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="949539325%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -133,7 +147,9 @@ if(savedDarkMode === true){
 <a data-name="-811511596%2FProperties%2F486241981" anchor-label="packId" id="-811511596%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="pack-id.html">packId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-811511596%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="pack-id.html">packId</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-811511596%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -146,7 +162,9 @@ if(savedDarkMode === true){
 <a data-name="-468041441%2FProperties%2F486241981" anchor-label="sortValue" id="-468041441%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="sort-value.html">sortValue</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-468041441%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="sort-value.html">sortValue</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-468041441%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -159,7 +177,9 @@ if(savedDarkMode === true){
 <a data-name="-227257297%2FProperties%2F486241981" anchor-label="tags" id="-227257297%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="tags.html">tags</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-227257297%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="tags.html">tags</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-227257297%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -172,7 +192,9 @@ if(savedDarkMode === true){
 <a data-name="-1778693955%2FProperties%2F486241981" anchor-label="user" id="-1778693955%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="user.html">user</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1778693955%2FProperties%2F486241981"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="user.html">user</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1778693955%2FProperties%2F486241981"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>

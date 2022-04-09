@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>RequestGuildMembers</title>
 </head><body><link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>
-    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script><script type="text/javascript" src="../../../scripts/main.js" async></script><script type="text/javascript" src="../../../scripts/prism.js" async></script><script>const storage = localStorage.getItem("dokka-dark-mode")
+    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script><script type="text/javascript" src="../../../scripts/main.js" defer></script><script type="text/javascript" src="../../../scripts/prism.js" async></script><script>const storage = localStorage.getItem("dokka-dark-mode")
 const savedDarkMode = storage ? JSON.parse(storage) : false
 if(savedDarkMode === true){
     document.getElementsByTagName("html")[0].classList.add("theme-dark")
@@ -22,7 +22,7 @@ if(savedDarkMode === true){
       <div id="leftColumn">
         <div id="sideMenu"></div>
       </div>
-      <div id="main"><script type="text/javascript" src="../../../scripts/main.js"></script>
+      <div id="main">
         <div class="main-content" id="content" pageids="gateway::dev.kord.gateway/RequestGuildMembers///PointingToDeclaration//-333820714">
           <div class="breadcrumbs"><a href="../../index.html">gateway</a>/<a href="../index.html">dev.kord.gateway</a>/<a href="index.html">RequestGuildMembers</a></div>
           <div class="cover ">
@@ -34,13 +34,15 @@ if(savedDarkMode === true){
             <div class="tabs-section-body">
               <h2 class="">Parameters</h2>
               <div data-togglable="Parameters">
-                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":gateway:dokkaHtmlPartial/main"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>guild</span><wbr><span><span>Id</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">id of the guild on which to execute the command.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>query</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">prefix to match usernames against. Use an empty string to match against all members.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>limit</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">maximum number of members to match against when using a <a href="query.html">query</a>. Use <code class="lang-kotlin">0</code> to request all members.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>presences</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Whether <a href="../-guild-members-chunk-data/presences.html">GuildMembersChunkData.presences</a> should be present in the response.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span>user</span><wbr><span><span>Ids</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The ids of the user to match against.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><span><span>nonce</span></span></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">A nonce to identify the <a href="../-guild-members-chunk-data/nonce.html">GuildMembersChunkData.nonce</a> responses.</p></div></div></div></div></div></div></div></div></div>
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":gateway:dokkaHtmlPartial/main"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span>guild</span><wbr><span><span>Id</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">id of the guild on which to execute the command.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>query</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">prefix to match usernames against. Use an empty string to match against all members.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>limit</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">maximum number of members to match against when using a <a href="query.html">query</a>. Use <code class="lang-kotlin">0</code> to request all members.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>presences</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Whether <a href="../-guild-members-chunk-data/presences.html">GuildMembersChunkData.presences</a> should be present in the response.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span>user</span><wbr><span><span>Ids</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The ids of the user to match against.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>nonce</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">A nonce to identify the <a href="../-guild-members-chunk-data/nonce.html">GuildMembersChunkData.nonce</a> responses.</p></div></div></div></div></div></div></div></div></div>
               </div>
               <h2 class="tabbedcontent">Constructors</h2>
               <div class="table" data-togglable="Constructors"><a data-name="446403211%2FConstructors%2F-333820714" anchor-label="RequestGuildMembers" id="446403211%2FConstructors%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue TabbedContent">
-                    <div class=""><span class="inline-flex"><a href="-request-guild-members.html">RequestGuildMembers</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="446403211%2FConstructors%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="-request-guild-members.html"><span>Request</span><wbr><span>Guild</span><wbr><span><span>Members</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="446403211%2FConstructors%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -55,7 +57,9 @@ if(savedDarkMode === true){
               <div class="table" data-togglable="Types"><a data-name="948928197%2FClasslikes%2F-333820714" anchor-label="Nonce" id="948928197%2FClasslikes%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-nonce/index.html"><span><span>Nonce</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="948928197%2FClasslikes%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="-nonce/index.html"><span><span>Nonce</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="948928197%2FClasslikes%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -70,7 +74,9 @@ if(savedDarkMode === true){
               <div class="table" data-togglable="Properties"><a data-name="746096595%2FProperties%2F-333820714" anchor-label="guildId" id="746096595%2FProperties%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="guild-id.html">guildId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="746096595%2FProperties%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="guild-id.html">guildId</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="746096595%2FProperties%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -83,7 +89,9 @@ if(savedDarkMode === true){
 <a data-name="479433254%2FProperties%2F-333820714" anchor-label="limit" id="479433254%2FProperties%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="limit.html">limit</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="479433254%2FProperties%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="limit.html">limit</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="479433254%2FProperties%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -96,7 +104,9 @@ if(savedDarkMode === true){
 <a data-name="-1829042062%2FProperties%2F-333820714" anchor-label="nonce" id="-1829042062%2FProperties%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="nonce.html">nonce</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1829042062%2FProperties%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="nonce.html">nonce</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1829042062%2FProperties%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -109,7 +119,9 @@ if(savedDarkMode === true){
 <a data-name="-1610177623%2FProperties%2F-333820714" anchor-label="presences" id="-1610177623%2FProperties%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="presences.html">presences</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1610177623%2FProperties%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="presences.html">presences</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1610177623%2FProperties%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -122,7 +134,9 @@ if(savedDarkMode === true){
 <a data-name="-1774084679%2FProperties%2F-333820714" anchor-label="query" id="-1774084679%2FProperties%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="query.html">query</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1774084679%2FProperties%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="query.html">query</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1774084679%2FProperties%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
@@ -135,7 +149,9 @@ if(savedDarkMode === true){
 <a data-name="733216308%2FProperties%2F-333820714" anchor-label="userIds" id="733216308%2FProperties%2F-333820714" data-filterable-set=":gateway:dokkaHtmlPartial/main"></a>
                 <div class="table-row" data-filterable-current=":gateway:dokkaHtmlPartial/main" data-filterable-set=":gateway:dokkaHtmlPartial/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="user-ids.html">userIds</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="733216308%2FProperties%2F-333820714"></span>
+                    <div class=""><span class="inline-flex">
+                        <div><a href="user-ids.html">userIds</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="733216308%2FProperties%2F-333820714"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
