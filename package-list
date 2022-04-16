@@ -9,6 +9,7 @@ dev.kord.common.entity.optional
 dev.kord.common.entity.optional.delegate
 dev.kord.common.exception
 dev.kord.common.ratelimit
+dev.kord.common.serialization
 module:core
 cache.data
 dev.kord.core
