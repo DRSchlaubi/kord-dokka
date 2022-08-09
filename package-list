@@ -11,7 +11,6 @@ dev.kord.common.exception
 dev.kord.common.ratelimit
 dev.kord.common.serialization
 module:core
-cache.data
 dev.kord.core
 dev.kord.core.behavior
 dev.kord.core.behavior.channel
@@ -81,7 +80,6 @@ dev.kord.rest.request
 dev.kord.rest.route
 dev.kord.rest.service
 module:voice
-com.iwebpp.crypto
 dev.kord.voice
 dev.kord.voice.encryption
 dev.kord.voice.encryption.strategies

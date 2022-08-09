@@ -44,7 +44,7 @@ if(savedDarkMode === true){
     <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":common:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Snowflake</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">Comparable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">Snowflake</a><span class="token operator">&gt; </span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">A unique identifier for entities <a href="https://discord.com/developers/docs/reference#snowflakes">used by discord</a>. Snowflakes are IDs with a <a href="timestamp.html">timestamp</a>, which makes them <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html">comparable</a> based on their timestamp.</p><p class="paragraph">Note: this class has a natural ordering that is inconsistent with <a href="equals.html">equals</a>, since <a href="compare-to.html">compareTo</a> only compares the first 42 bits of the ULong <a href="value.html">value</a> (comparing the timestamp), whereas <a href="equals.html">equals</a> uses all bits of the ULong <a href="value.html">value</a>. <a href="compare-to.html">compareTo</a> can return <code class="lang-kotlin">0</code> even if <a href="equals.html">equals</a> returns <code class="lang-kotlin">false</code>, but <a href="equals.html">equals</a> only returns <code class="lang-kotlin">true</code> if <a href="compare-to.html">compareTo</a> returns <code class="lang-kotlin">0</code>.</p></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Extensions">Extensions</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Extensions">Extensions</button><button class="section-tab" data-togglable="Sources">Sources</button></div>
     <div class="tabs-section-body">
       <h2 class="tabbedcontent">Constructors</h2>
       <div class="table" data-togglable="Constructors"><a data-name="2056039212%2FConstructors%2F486241981" anchor-label="Snowflake" id="2056039212%2FConstructors%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
@@ -233,22 +233,7 @@ if(savedDarkMode === true){
         </div>
       </div>
       <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="-1699318027%2FProperties%2F486241981" anchor-label="asString" id="-1699318027%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
-        <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="as-string.html"><span>as</span><wbr><span><span>String</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1699318027%2FProperties%2F486241981"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":common:dokkaHtmlPartial/main"><a data-name="-1699318027%2FProperties%2F486241981" anchor-label="asString" id="-1699318027%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a><div class="symbol monospace strikethrough"><strike><span class="token keyword"></span></strike><strike><span class="token keyword">val </span></strike><a href="as-string.html"><strike>asString</strike></a><strike><span class="token operator">: </span></strike><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1699318027%2FProperties%2F486241981" anchor-label="asString" id="-1699318027%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a><p class="paragraph">A <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> representation of this Snowflake's <a href="value.html">value</a>.</p></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="-1633693229%2FProperties%2F486241981" anchor-label="increment" id="-1633693229%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
+      <div class="table" data-togglable="Properties"><a data-name="-1633693229%2FProperties%2F486241981" anchor-label="increment" id="-1633693229%2FProperties%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
         <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
           <div class="main-subrow keyValue ">
             <div class=""><span class="inline-flex">
@@ -353,6 +338,19 @@ if(savedDarkMode === true){
                 <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":common:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html">Snowflake</a><span class="token punctuation">.</span><a href="../../dev.kord.common.entity.optional/optional-snowflake.html"><span class="token function">optionalSnowflake</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../dev.kord.common.entity.optional/-optional-snowflake/-value/index.html">OptionalSnowflake.Value</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">"optionalNullable"</span></span></span><wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html">Snowflake</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="../../dev.kord.common.entity.optional/optional-snowflake.html"><span class="token function">optionalSnowflake</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../dev.kord.common.entity.optional/-optional-snowflake/-value/index.html">OptionalSnowflake.Value</a><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Sources</h2>
+      <div class="table" data-togglable="Sources"><a data-name="-949249049%2FSource%2F486241981" anchor-label="https://github.com/kordlib/kord/blob/3c74c5303a5637f80ae46470c98daaa64b8ee316/common/src/main/kotlin//entity/Snowflake.kt#L18" id="-949249049%2FSource%2F486241981" data-filterable-set=":common:dokkaHtmlPartial/main"></a>
+        <div class="table-row" data-filterable-current=":common:dokkaHtmlPartial/main" data-filterable-set=":common:dokkaHtmlPartial/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="https://github.com/kordlib/kord/blob/3c74c5303a5637f80ae46470c98daaa64b8ee316/common/src/main/kotlin//entity/Snowflake.kt#L18">jvm source</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-949249049%2FSource%2F486241981"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
           </div>
         </div>
       </div>
