@@ -24,6 +24,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.2.1
         with:
           branch: gh-pages
-          folder: dokka
+          folder: build/dokka/htmlMultiModule
           git-config-name: GitHub Actions
           git-config-email: actions@github.com
